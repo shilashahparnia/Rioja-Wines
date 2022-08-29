@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rioja Wines"/>
+    <meta name="keywords" content="Rioja, Wine, Tour, Visit, Rout, Vineyard, Map, Red Wine, White Wine, Rose Pink Wine">
+    <meta name="robots" content="index,follow"/>
+    <meta name="author" content="Shila Shahparnia"/>
+    <title>Contact Us</title>
+</head>
+<style>
+    body {
+        background-image: url(./images/rioja.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    nav>a {
+            text-decoration: none;
+            text-transform: capitalize;
+            text-align: center;
+            color:white;
+            font-weight: 800;
+            font-size: 30px;
+            width: 400px;
+            height: 200px;
+            line-height: 80px;
+            background-color:rgb(105, 5, 105);
+            border-radius: 7px;
+            padding: 10px;
+
+
+        }
+        header {
+            background-color: rgb(70, 2, 70);
+            padding: 5px;
+            color: white;
+            font-size: 25px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(70, 2, 70);
+            color: white;
+            font-size: 25px;
+        }
+</style>
+<body>
+    <main>
+        <header>
+            <span>  <span style="font-size:30px ;">&#x1F4DE</span> Online order: +34666357606  |  <span style="font-size: 30px;">&#x2708</span> Free shipping from 150 €  </span>
+        </header>
+            <nav style="margin-top: 30px; margin-left: 30px;">
+                <a href="./index.html">Home</a>
+                <a href="./wines.html">Rioja Wines</a>
+                <a href="./visitrioja.html">Visit Rioja</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+            <div>
+                <h1 style="font-size: 30px; margin-left: 50px; color:white;">Just Tell Us More About Your Favourite Wine</h1>
+            </div>
+    </main>
+    <form style="font-size: 20px; color: white; text-align: left; font-weight: 900; margin-left: 50px;" action="./send.html" method="post" enctype="multipart/form-data">
+        <label for="firstName">Your First Name</label>
+        <input type="text" name="firstName" placeholder="First Name" id="firstName">
+        <label for="lastName">Your Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name"> <br> <br>
+        <label for="email">Your Email</label>
+        <input type="text" name="email" id="email" placeholder="Email">
+        <label for="phone">Your Mobile Number</label>
+        <input type="tel" name="phone" id="phone">
+        <br> 
+        <p align="left">Your Type</p>
+        <label for="red">Red</label>
+        <input type="radio" name="red" id="red">
+        <label for="white">White</label>
+        <input type="radio" name="white" id="white">
+        <label for="rose">Rose Pink</label>
+        <input type="radio" name="rose" id="rose">
+        <br> <br>
+        <label for="Rioja">Your Rioja</label>
+        <select name="Rioja" id="Rioja">
+            <option value="Altos Ibéricos">Altos Ibéricos</option>
+            <option value="Artadi La Poza">Artadi La Poza</option>
+            <option value="Badiola">Badiola</option>
+            <option value="Carlos Moro">Carlos Moro</option>
+            <option value="Castillo De Ygay">Castillo De Ygay</option>
+            <option value="Contador">Contador</option>
+            <option value="Contino">Contino</option>
+            <option value="Cune">Cune</option>
+            <option value="Cune Imperial">Cune Imperial</option>
+            <option value="Dalmau">Dalmau</option>
+            <option value="El Pacto">El Pacto</option>
+            <option value="Haciendo López">Haciendo López</option>
+            <option value="Finca Martelo">Finca Martelo</option>
+            <option value="Izadi Crianza">Izadi Crianza</option>
+            <option value="Lan Crianza">Lan Crianza</option>
+            <option value="Luis Cañas">Luis Cañas</option>
+            <option value="Marquéz De Cáceres">Marquéz De Cáceres</option>
+            <option value="Pujanza">Pujanza</option>
+            <option value="Ramón Bilbao">Ramón Bilbao</option>
+            <option value="Torre Muga">Torre Muga</option>
+            <option value="Viña Salceda">Viña Salceda</option>
+        </select> <br> <br>
+        <label for="date">Your Last Rioja's Purchase</label>
+        <input type="date" name="date" id="date"> 
+        <br> <br>
+        <p align="left">How Did You Know Us?</p>
+        <label for="instagram">Instagram</label>
+        <input type="checkbox" name="instagram" id="instagram"> <br>
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" name="facebook" id="facebook"> <br>
+        <label for="twitter">Twitter</label>
+        <input type="checkbox" name="twitter" id="twitter"> <br>
+        <label for="Telegram">Telegram</label>
+        <input type="checkbox" name="Telegram" id="Telegram"> <br>
+        <label for="carrefour">Carrefour Market</label>
+        <input type="checkbox" name="carrefour" id="carrefour"> <br>
+        <label for="corteInglés">El Corte Inglés</label>
+        <input type="checkbox" name="corteInglés" id="corteInglés"> <br> <br>
+        <label for="comment">Your Message</label> <br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <br>
+<input style="height: 50px; width: 200px; color:white; background-color:rgb(70, 2, 70); font-size:30px; font-weight: 700;" type="submit" value="send">
+    </form> <br>
+    <footer>
+        <p style="margin-top: 5px;">All rights reserved &copy 2022</p>
+        <p style="margin-bottom: 5px;">
+            <span style="font-size: 25px;">&#x1F4E8</span> <a href="mailto:shila.shahparnia@gmail.com" style="color: white;">shila.shahparnia@gmail.com</a>
+        </p>
+    </footer>
+</body>
+</html>
